@@ -30,6 +30,8 @@ roscd log
 rosls 包名\包名+子文件名
 ```
 - Tab补全
+# 总结
+ROS的文件系统常用命令跟linux很相似，不过前面加上了ros前缀，方便了开发者对ROS文件的操作。
 # 回顾
 - rospack = ros + pack(age)
 - roscd = ros + cd
