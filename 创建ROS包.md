@@ -49,6 +49,10 @@ catkin_make
 ```
 . ~/catkin_wa/devel/setup.bash
 ```
+或
+```
+source devel/setup.bash
+```
 # 包的依赖
 ## 一阶依赖（直接依赖）
 创建包文件时所引用的依赖便是一阶依赖，我们可以使用rospack工具来查看它们：
