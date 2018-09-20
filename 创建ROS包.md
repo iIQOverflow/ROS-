@@ -53,6 +53,7 @@ catkin_make
 ```
 source devel/setup.bash
 ```
+只有这样你才能添加catkin_ws到你的ROS环境。
 # 包的依赖
 ## 一阶依赖（直接依赖）
 创建包文件时所引用的依赖便是一阶依赖，我们可以使用rospack工具来查看它们：
